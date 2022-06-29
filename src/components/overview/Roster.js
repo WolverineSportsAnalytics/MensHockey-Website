@@ -23,7 +23,7 @@ function preventDefault(event) {
 
 const Roster = () => {
   return (
-    <React.Fragment>
+    <>
       <Typography color="primary">Current Roster</Typography>
       <Table size="small">
         <TableHead>
@@ -52,7 +52,7 @@ const Roster = () => {
       <Link color="primary" href="#" onClick={preventDefault} sx={{ mt: 3 }}>
         See more ...
       </Link>
-    </React.Fragment>
+    </>
   );
 };
 

@@ -1,10 +1,6 @@
 import React from 'react';
 import {Box, Typography} from '@mui/material';
 
-function preventDefault(event) {
-event.preventDefault();
-}
-
 const TeamLogo = () => {
 
 return (
